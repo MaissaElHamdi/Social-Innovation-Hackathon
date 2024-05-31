@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.3",
+    "bcrypt": "^5.1.0",
+    "joi": "^17.9.2",
+    "joi-password-complexity": "^5.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "mdb-react-ui-kit": "^6.1.0",
+    "react-chrono": "^2.2.0",
+    "react-icons": "^4.9.0",
+    "react-intersection-observer": "^9.4.4",
+    "react-vertical-timeline-component": "^3.6.0",
+    "styled-components": "^5.3.11"
+  },
+  "devDependencies": {
+    "babel-plugin-macros": "^3.1.0"
+  }
+}

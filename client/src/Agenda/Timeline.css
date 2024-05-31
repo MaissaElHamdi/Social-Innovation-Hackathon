@@ -1,0 +1,58 @@
+.vertical-timeline::before {
+
+    background: #1f212d;;
+}
+
+.vertical-timeline-element-content {
+    background-color: #2ea3dd;
+}
+.vertical-timeline-element-content:hover {
+    background-color: #1F212D;
+ 
+    .vertical-timeline-element-title{
+        color: #E0DED2;
+    }
+   
+    
+}
+@media only screen and (max-width: 1170px){
+    .vertical-timeline-element-content:hover {
+        background-color: #1F212D;
+     
+        .vertical-timeline-element-title{
+            color: #E0DED2;
+        }
+        .vertical-timeline-element-date{
+            color: #E0DED2;
+            
+           
+           
+        }
+        
+    }
+}
+
+.text-centered-agenda2  {
+    margin-top: 1ch;
+    margin-bottom: 1ch;
+    position: relative;
+    text-align: center;
+color: #1f212d;
+font-size: 10vw;
+font-family: Fantasy ;
+font-weight: 700;
+}
+.body-timeline{
+    background-image: url("../Assets/background.jpg");
+    display: flex;
+    flex-direction: column;
+   background-size: cover;
+   
+}
+.vertical-timeline-element-icon {
+
+}
+.element.style {
+    background: #2ea3dd;
+}
+

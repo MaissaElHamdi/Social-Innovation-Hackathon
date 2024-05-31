@@ -1,0 +1,47 @@
+.speakers-component{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5ch;
+    justify-content: center;
+    margin-left: 2ch;
+    margin-right: 2ch;
+  
+}
+body{  background-color: #fbfdfe;}
+
+.video{
+    width: 100vw;
+    opacity: 0.8;
+    margin-bottom: 0%;
+}
+.video-speaker-container{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 0%;
+}
+.text-video-speaker{
+    position: absolute;
+    bottom: 35%;
+    left: 10%;
+   color: #1F212D;
+    font-size: 2vw;
+    text-align : left;
+
+}
+.color{
+    color: #2ea3dd;
+}
+.button-speaker{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 3px;
+   width: 20ch;
+    height: 4ch;
+    color: #1F212D;
+    border-color: #2ea3dd;
+    background-color: #2ea3dd;
+}
+.button-speaker:hover{
+    color: #e0ded2;
+}

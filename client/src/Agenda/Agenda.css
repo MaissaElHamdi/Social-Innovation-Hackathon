@@ -1,0 +1,23 @@
+.background-agenda{
+  height: 40vh;
+  width: 100%;
+
+}
+.toppage-container{
+    position: relative;
+    text-align: center;
+color: #1f212d;
+font-size: 10vw;
+font-family: Fantasy ;
+font-weight: 700;
+}
+.text-centered-agenda{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body{
+  background-color: #e0ded2;
+}
